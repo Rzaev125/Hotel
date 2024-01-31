@@ -5,7 +5,7 @@ import logo2 from './assets/logo2.png'
 
 function App() {
   return (
-    <>
+    <div className='page'>
       <nav>
         <div className="container">
           <div id="logo">
@@ -47,7 +47,7 @@ function App() {
       </main>
       
       <footer></footer>
-    </>
+    </div>
   )
 }
 
